@@ -28,3 +28,73 @@ a {
 
 
 }
+h4{
+	font-size: 30 px;
+	text-align: center;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h3{
+	font-size: 25px;
+	text-align: center;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.image-container {     <!-- Image of the index page -->
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+p{
+	font-size: 18px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.profile {     <!-- details of the aboutus page of the pictures -->
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: #95ABEC;
+}
+
+.profile-image { <!-- details of the aboutus page of the pictures -->
+	float: left;
+    width: 140px; 
+    height: auto;
+    border-radius: 10px;
+	margin-right: 15px;
+	border-radius: 10px;
+}
+ .resource-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+ }
+.tech-hero { <!-- details of the techhero page of the pictures -->
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightblue1;
+}
+
+.hero-image img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-info {
+    text-align: left;
+    padding: 10px;
+}
+
+.hero-links {
+    list-style-type: none;
+    padding: 0;
+}
