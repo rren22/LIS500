@@ -107,3 +107,11 @@ p{
     list-style-type: none;
     padding: 0;
 }
+
+table {
+border-collapse: collapse; 
+}
+td, th {
+border: 5px solid black; 
+padding: 10px; 
+}
