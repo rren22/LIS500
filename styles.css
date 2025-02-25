@@ -40,7 +40,7 @@ h3{
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .image-container {     <!-- Image of the index page -->
-    text-align: center; 
+    float: center; 
     margin-top: 20px; 
 }
 
@@ -59,7 +59,7 @@ p{
 }
 
 .profile-image { <!-- details of the aboutus page of the pictures -->
-	float: left;
+	float: center;
     width: 140px; 
     height: auto;
     border-radius: 10px;
