@@ -144,6 +144,7 @@ p{
 table {
     border-collapse: collapse;
     width: 100.25%;
+    height: 300px;
     background-color: rgb(231, 236, 239);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
