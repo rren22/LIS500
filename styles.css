@@ -153,12 +153,11 @@ table {
 }
 
 .button{
+    color: rgb(231, 236, 239);
     height: auto;
     width: 100%;
     border: 0;
     background-color: rgb(68, 113, 153);
-    color: rgb(231, 236, 239);
-    
 }
 button:hover {
     background-color: #859eb9;
