@@ -82,7 +82,7 @@ p{
 	background-color: rgb(96, 150, 186);
    
 }
-.profile-description{
+.profile-description{   /*profile for about us page*/
      font-size: 140%;
      margin: 40px;
      padding-left:30px;
@@ -91,7 +91,7 @@ p{
      width: 300px;
 }
 
-.profile-image { 
+.profile-image {    /*profile images for about us page*/
 	float: left;
     width: 250px; 
     height: auto;
@@ -104,7 +104,7 @@ p{
             flex-direction: column;
             align-items: center;
  }
-.tech-hero { 
+.tech-hero {                   /*template for tech hero page*/
     text-align: center;
     max-width: 700px;
     margin: 20px auto;
@@ -115,7 +115,7 @@ p{
     font-size: 25px; 
 }
 
-.hero-image2{
+.hero-image2{       /*image of Nsikan's Hero*/
     display: block;
     margin: 10px auto;
     border-radius: 10px;
@@ -123,7 +123,7 @@ p{
     height: auto;
 }
 
-.hero-image img {
+.hero-image img {   /*image of Rachel's Hero*/
     display: block;
     margin: 10px auto;
     border-radius: 10px;
@@ -163,7 +163,7 @@ table {
 button:hover {
     background-color: #859eb9;
 }
-section{
+section{     /*welcome page design*/
     text-align: center;
     max-width: 700px;
     margin: 20px auto;
@@ -173,7 +173,7 @@ section{
     background-color: rgb(96, 150, 186);
     color: rgb(231, 236, 239);
 }
-.implicit-bias-description{
+.implicit-bias-description{    /*design for resource page*/
     margin: 15px;
     padding: 30px;
 	border-radius: 10px;
