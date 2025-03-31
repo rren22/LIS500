@@ -111,6 +111,14 @@ color: rgb(164, 193, 213);
 button:hover {
     background-color: #859eb9;
 }
+/*Welcome Page CSS info*/
+    background-color: #E9F2FD;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 15px auto;
+    color: rgb(231, 236, 239);
 	
 /*About Us CSS info*/
 	
