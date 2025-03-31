@@ -38,7 +38,54 @@ a {
     color: red;
 }
 /* Navigation Bar and Table CSS styles*/
+.menu-table{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    background: #222;
+    width: 100%;
+}
 
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.nav-list a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+.table-container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgb(231, 236, 239);
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+td {
+    border: 3px solid white;
+    padding: 10px;
+    text-align: center;
 
 .name-title{
     margin: 20px auto;
@@ -49,48 +96,54 @@ a {
     font-size: 50px;
 color: rgb(164, 193, 213);
 }
-
-
-.image-container{    
-    display: block;
-    margin: 20px auto; 
-    text-align: center;
-    max-width: 100%;
+/* Buttons within Table */
+.button, .imp-button {
+    font-size: 20px;
+    background-color: rgb(231, 236, 239);
+    border-radius: 10px;
+    color: rgb(54, 95, 136);
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
 }
 
-
+button:hover {
+    background-color: #859eb9;
+}
+	
+/*About Us CSS info*/
+	
 .profile {    
     display: flex;
     align-items: center;
     gap: 15px; 
-   color: rgb(231, 236, 239); 
-    margin-bottom: 20px;
-	border-radius: 10px;
-	background-color: rgb(96, 150, 186);
+   background-color: rgb(164,192,245; 
+   border: 2px solid #333;
+   padding: 20px;
+   width: 80%;
+    margin: 20px auto;
+   text-align: left;
    
 }
-.profile-description{   /*profile for about us page*/
+
+.profile-description{   /*profile details for about us page*/
      font-size: 140%;
      margin: 40px;
-     padding-left:30px;
-     padding-right: 30px;
-     height: auto;
+     padding: 0 30px;
      width: 300px;
 }
 
 .profile-image {    /*profile images for about us page*/
 	float: left;
-    width: 250px; 
-    height: auto;
-    border-radius: 10px;
+    	width: 140px;
+	height: 120px
+    	border-radius: 10px;
 	margin-right: 15px;
 	border-radius: 10px;
 }
- .resource-links {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
- }
+
+/* Tech Hero CSS Info */
 .tech-hero {                   /*template for tech hero page*/
     text-align: center;
     max-width: 700px;
@@ -101,15 +154,6 @@ color: rgb(164, 193, 213);
     background-color: rgb(96, 150, 186);
     font-size: 25px; 
 }
-
-.hero-image2{       /*image of Nsikan's Hero*/
-    display: block;
-    margin: 10px auto;
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
-}
-
 .hero-image img {   /*image of Rachel's Hero*/
     display: block;
     margin: 10px auto;
@@ -117,49 +161,24 @@ color: rgb(164, 193, 213);
     max-width: 120%;
     height: auto;
 }
-
+.hero-image2{       /*image of Nsikan's Hero*/
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
 .hero-info {
    font-size: 25px;
-    padding: 10px;
+   padding: 10px;
 }
-
 .hero-links {
     list-style-type: none;
     padding: 0;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100.25%;
-    height: 90px;
-    background-color: rgb(231, 236, 239);
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: 2px solid black; 
-    overflow: hidden;
-    color: rgb(231, 236, 239);
-}
+/*Resource CSS Info*/
 
-.button{
-    color: rgb(231, 236, 239);
-    height: auto;
-    width: 100%;
-    border: 0;
-    background-color: rgb(68, 113, 153);
-}
-button:hover {
-    background-color: #859eb9;
-}
-section{     /*welcome page design*/
-    text-align: center;
-    max-width: 700px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: rgb(96, 150, 186);
-    color: rgb(231, 236, 239);
-}
 .implicit-bias-description{    /*design for resource page*/
     margin: 15px;
     padding: 30px;
@@ -169,6 +188,11 @@ section{     /*welcome page design*/
     color: rgb(231, 236, 239);
 }
 
+ .resource-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+ }
 
 .resource-links{
     margin: 15px;
