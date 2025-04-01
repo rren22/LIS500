@@ -77,7 +77,7 @@ a {
 table {
     border-collapse: collapse;
     width: 80%;
-    background-color: rgb(231, 236, 239);
+    background-color: black;
     border: 2px solid black;
     border-radius: 10px;
     overflow: hidden;
