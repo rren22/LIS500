@@ -131,7 +131,7 @@ button:hover {
    background-color: rgb(164,192,245); 
    border: 2px solid #333;
    padding: 20px;
-   width: 80%;
+   width: 60%;
     margin: 20px auto;
    text-align: left;
    
@@ -140,12 +140,12 @@ button:hover {
 .profile-description{   /*profile details for about us page*/
      font-size: 140%;
      margin: 40px;
-     padding: 0 30px;
-     width: 300px;
+     padding: 0 15px;
+     width: 250px;
 }
 
 .profile-image {    /*profile images for about us page*/
-	float: left;
+	float: right;
     	width: 140px;
 	height: 120px;
     	border-radius: 10px;
