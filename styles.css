@@ -131,7 +131,7 @@ button:hover {
     background-color: rgb(164,192,245); 
    border: 2px solid #333;
    padding: 10px;
-   width: 60%;
+   width: 50%;
     margin: 20px auto;
    text-align: left;
    
@@ -142,15 +142,16 @@ button:hover {
 	height: 120px;
 	border-radius: 10px;
 	border: 2px solid #333;
-	margin-right: 15px;
+	margin-right: 10px;
 	float: right;
 }
 
 .profile-description{   /*profile details for about us page*/
      font-size: 140%;
-     margin: 40px;
+     margin: 10px;
      padding: 0 15px;
      width: 250px;
+     flex-grow: 1;
 }
 
 /* Tech Hero CSS Info */
