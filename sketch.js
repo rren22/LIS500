@@ -1,52 +1,52 @@
-// Add some header info
-// For TM template code
-let video;
 let classifier;
-let label = "waiting...";
+let video;
+let label = "Waiting...";
+let emoji = "📦🔲🦢";
 
-
-// STEP 1: Load the model!
-function preload(){
-  classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/-jaEhG5_a/model.json');
-}
+const modelURL = "https://teachablemachine.withgoogle.com/models/-jaEhG5_a/";
 
 function setup() {
-  createCanvas(640, 520);
-  // Create the video
+  let canvas = createCanvas(640, 520);
+  canvas.parent("canvas-container"); // Attach canvas to HTML div
+
   video = createCapture(VIDEO);
+  video.size(640, 480);
   video.hide();
 
-  // STEP 2: Start classifying
+  classifier = ml5.imageClassifier(modelURL + "model.json", modelReady);
+}
+
+function modelReady() {
+  console.log("✅ Model Loaded");
   classifyVideo();
 }
 
-// STEP 2 classify!
-function classifyVideo(){
-  classifier.classify(video, gotResults);
+function classifyVideo() {
+  classifier.classify(video, gotResult);
 }
 
 function draw() {
   background(0);
-  
-  // Draw the video
   image(video, 0, 0);
 
-  // STEP 4: Draw the label
-  textSize(32)
-  textAlign(CENTER,CENTER);
   fill(255);
-  text(label, width/2, height - 16)
-  
-
+  textSize(32);
+  textAlign(CENTER);
+  text(label, width / 2, height - 20);
+  textSize(64);
+  text(emoji, width / 2, 60);
 }
 
-
-// STEP 3: Get the classification!
-function gotResults(error, results){
-  if (error){
+function gotResult(error, results) {
+  if (error) {
     console.error(error);
     return;
   }
-   label = results[0].label;
+
+  if (results[0].confidence > 0.3) {
+    label = results[0].label;
+    
+  }
+
   classifyVideo();
 }
