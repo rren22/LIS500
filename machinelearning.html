@@ -17,22 +17,28 @@
             <td><a href="resources.html">Resources</a></td>
             <td><a href="techhero.html">Tech Heroes</a></td>
             <td><a href="machinelearning.html">Machine Learning</a></td>
+            <td><a href ="ourmachine.html"></a></td>
         </table>
     </nav>
 
-    <!-- Reflections -->
-    <div>
-        <h2>Rachel's Reflection</h2>
-    </div>
-    <div>
-        <h2>Nsikan's Reflection</h2>
-    </div>
-
-    <!-- Embedded Video Section -->
-    <div>
-        <h2>Our Algorithm in Action</h2>
-        <p>Click here to watch our video</p>
-    </div>
+  <div>
+      <h2>Machine Learning Application</h2>
+      <section id = "project3">
+          <h3>Project Objective & Scope</h3>
+               <p>Our team, for our machine learning project, aimed to train a model with Google's <strong>Teachable Machine</strong> to differentiate between black-and-white origami balls and colored origami balls. This rather straightforward visual task enabled us to examine the degree to which accessible tools such as Teachable Machine can facilitate image classification without requiring deep programming skills.</p>
+               <p>But while our technical goal was straightforward—detecting color differences—the larger lesson arrived as we wrestled with the social and ethical consequences of algorithmic decision-making. Reading <em>Unmasking AI</em> by Joy Buolamwini alongside this project expanded our understanding of what it means to design algorithms in a society that is already biased. Buolamwini's research reveals the dangers of AI systems that perpetuate racial biases due to the data upon which they are trained. We began to understand that even the most "neutral" AI systems are programmed by a set of choices: what information we give them, how we label that information, and what outcomes we aim to optimize for.</p>
+          <h3>Process</h3>
+              <p>Our process began with defining what kind of model we would train. We considered building a model around sound but ultimately decided on a visual one, reasoning that it would be easier to connect back to our coursework on visual bias—specifically racial, appearance, and body presentation bias. While we did talk about biases also existing in how people sound (e.g., accent, tone), a visual model allowed us to study bias in a more tangible, visual way.</p>
+              <p>Once we had chosen a visual model, we had to choose what objects to scan. In contrast to the tutorial video illustration, we didn't have many choices readily at hand—so we chose two origami balls: one colored, and one black and white. We trained the Teachable Machine to recognize the visual difference between the two. While the training process itself was straightforward, installing the model onto our website took additional time and debugging. We just copied the tutorial code but had to use additional resources to properly interface our trained model and have it show up and work on the webpage. We managed to finally get it to run successfully by trial and error.</p>
+          <h3>Lesson Learned</h3>
+               <p>Teachable Machine made it simple to build and export a working model, and that is proof of the increased accessibility of machine learning tools. But this also presents enormous ethical responsibilities. Just because anyone can build an algorithm doesn't necessarily mean every algorithm is built with care or in an inclusive way.</p>
+               <p>One significant thing we learned is that technology is not value-neutral. Algorithms reflect the values, assumptions, and blind spots of their developers. For fairness, diversity at the development stage—the people who develop the tools and the data we train on—is key. Ethical concerns must be incorporated into the development process from the very beginning of AI development so that these systems do not harm unintentionally the very people they are designed to serve.</p>
+               <p>Personally, the biggest moment of surprise was realizing just how easily our model would mislabel something. If we held in front of the camera a black-and-white object that was not an origami ball, the model would refuse to classify it otherwise. This revealed to us just how literal and one-dimensional the machine's "comprehension" is—it doesn't know what an origami ball is, only what pixel configurations it was shown during training.</p>
+               <p>This has deep implications in daily life. Whether it's a facial recognition program that misidentifies darker-skinned people, or a hiring algorithm that learns from biased résumés, AI will mirror the gaps, omissions, and biases of its training data unless we intervene.</p>
+          <h3>Conclusion</h3>
+               <p>By this project, we learned about the potentiality and vulnerability of machine learning systems. In spite of the seemingly objective and unproblematic task—sorting colored from black-and-white origami balls—we noticed how bias and design came into play. Reading <em>Unmasking AI</em> alongside this technical process helped us see that developing fair and equitable technology is more than technical expertise; it is something that requires reflection, responsibility, and ongoing care about equity.</p>
+      </section>
+  </div>
 
     <!-- Webcam + Prediction -->
     <div>
