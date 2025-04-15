@@ -225,3 +225,18 @@ button:hover {
     height: auto;
     width: 100px;
 }
+/*Machine Learning Page*/
+.project3{
+	margin: 2rem 0;
+	padding 1.5rem;
+	border-radius: 8px;
+	background color: rgb(164,192,245);
+	box shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.project3 h3 {
+	margin-top: 0;
+	font-size: 1.5rem;
+}
+.project p {
+	line-height: 1.6;
+}
