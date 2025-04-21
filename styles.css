@@ -1,0 +1,322 @@
+/*General Styles */
+body {
+    background: #fdfdfd;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    line-height: 2.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 250%;
+    text-align: center;
+}
+
+h3,
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+/* Navigation Bar and Table CSS styles*/
+.menu-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    background: #222;
+    width: 100%;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.nav-list a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.table-container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+td {
+    border: 3px solid white;
+    padding: 15px;
+    text-align: center;
+}
+
+.name-title {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: rgb(54, 95, 136);
+    font-size: 50px;
+    color: rgb(164, 193, 213);
+}
+
+/* Buttons within Table */
+.button,
+.imp-button {
+    font-size: 20px;
+    background-color: rgb(4, 14, 20);
+    border-radius: 10px;
+    color: rgb(54, 95, 136);
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #859eb9;
+}
+
+/*Welcome Page CSS info*/
+.section {
+    background-color: #E9F2FD;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 20px auto;
+    color: rgb(62, 178, 247);
+}
+
+/*About Us CSS info*/
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(164, 192, 245);
+    border: 2px solid #333;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+
+}
+
+.profile-image {
+    /*profile images for about us page*/
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    margin-right: 10px;
+    float: right;
+}
+
+.profile-description {
+    /*profile details for about us page*/
+    font-size: 140%;
+    margin: 10px;
+    padding: 0 15px;
+    width: 250px;
+    flex-grow: 1;
+}
+
+/* Tech Hero CSS Info */
+.tech-hero {
+    /*template for tech hero page*/
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(96, 150, 186);
+    font-size: 25px;
+}
+
+.hero-image img {
+    /*image of Rachel's Hero*/
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 120%;
+    height: auto;
+}
+
+.hero-image2 {
+    /*image of Nsikan's Hero*/
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-info {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.hero-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*Resource CSS Info*/
+
+.implicit-bias-description {
+    /*design for resource page*/
+    margin: 10px;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+    background-color: rgb(96, 150, 186);
+    font-size: 130%;
+    color: rgb(231, 236, 239);
+}
+
+.resource-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resource-links {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(96, 150, 186);
+    color: rgb(231, 236, 239);
+    font-size: 20px;
+}
+
+.imp-button {
+    font-size: 30px;
+    background-color: rgb(231, 236, 239);
+    border-radius: 10px;
+    color: rgb(54, 95, 136);
+}
+
+.linkedin {
+    height: auto;
+    width: 100px;
+}
+
+/*Machine Learning Page*/
+.project3 {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: rgb(96, 150, 186);
+}
+
+.project3 h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.project3 p {
+    line-height: 1.6;
+}
+
+.page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font: 120%;
+}
+
+.image-pair {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.image-pair img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    border-radius: 8px;
+}
+.MLA-But{
+    color: #fdfdfd;
+    background-color: #444;
+    size: 150%;
+ border-style: solid;
+    border-radius: 5px;
+    height: 35px;
+}
+/*footer{
+    bottom: 0;
+    width: auto;
+    height: 80px;
+    background-color: #444;
+    margin: 0;
+   padding: 0;
+}
+html{
+    height: 100%;
+
+}*/
+
+.ML-Words{
+    background-color: #859eb9;
+    border-radius: 20px;
+    min-width: 500px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font: 30px;
+}
