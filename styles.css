@@ -294,7 +294,7 @@ button:hover {
     font: 120%;
 }
 
-.image-pair {
+.image-pair {   /*Styles for Images*/
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -333,7 +333,7 @@ button:hover {
 nav{
     justify-content: center;
 }
-footer{
+footer{   /*For bottom across all pages*/
     bottom: 0;
     width: auto;
     height: 80px;
