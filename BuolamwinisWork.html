@@ -22,7 +22,7 @@
         </table>
     </nav>
 
-    <nav>
+    <nav>  <!--Sub Navigation for Machine Learning Page-->
 
         <a href="ourmachine.html"><button class="MLA-But">Try Our Model</button></a>
         <a href="Objective.html"> <button class="MLA-But">Objective</button></a>
@@ -35,21 +35,13 @@
     <br>
    
     
-    <div class="ML-Words">
+    <div class="ML-Words">  <!--Description of Connecting to Buolamwini's Work-->
       <h2>Connecting to Buolamwini's Work</h2>
     <br>  
-    <p>Buolamwini’s research provided a powerful framework for critically reflecting on our model. In Unmasking
-        AI, she recounts her experience with facial recognition software that failed to accurately identify
-        darker-skinned women while performing much better on lighter-skinned men. This was due to bias in the
-        training data, which overwhelmingly featured lighter-skinned male faces. As a result, the algorithm
-        began to categorize those faces as "default." That made sense by what we observed in our own experiment:
-        the model only learned from examples that we taught it.</p>
-    <p>If we had trained the model with fewer images or excluded edge cases—like origami balls of mixed color or
-        under different lighting—it would have misclassified those inputs. This is the way AI models operate in
-        practice, such as recruitment software, and can perpetuate systemic discrimination by accident. Suppose,
-        for instance, a company trains a model on data solely from "ideal" candidates holding college degrees
-        and conventional résumés. The model may eventually choose mostly white or male candidates—proof of
-        current disparities rather than reducing them.</p>
+    <p>Joy Buolamwini’s research provided a powerful framework for critically reflecting on our model. In Unmasking AI, she recounts her experience with facial recognition software that failed to accurately identify darker-skinned women while performing much better on lighter-skinned men. This was due to bias in the training data, which overwhelmingly featured lighter-skinned male faces. As she was studying facial recognition technologies, she stated, “Skewed gold standard benchmark datasets led to a false sense of universal progress based on assessing the performance of facial recognition technologies on only a small segment of humanity” (Buolamwini 98). Our project revealed a similar pattern. When our model saw a spiky ball with an ipad, it had no contextual understanding, it simply guessed based on a surface-level training.
+</p>
+    <p>Even in our simple origami classification, the decision of what categories to include shaped the model’s performance and perspective. In reflecting on these limitations, Buolamiwini demonstrated how there is cost inclusion and exclusion in how we design our machines. Buolamwini stated, “there are costs of inclusion and costs of exclusion to be considered in the design and deployment of AI systems that must be contextualized” (Buolamwini 258). Just like the system's Buolamwini critiques, our system could easily exclude unfamiliar or nuanced inputs, not because they were incorrect, but because they weren’t part of the model's narrow training scope.
+</p>
     </div>
     <footer>
 		© <Span><script type="text/JavaScript">document.write(new Date().getFullYear());</script></Span>
