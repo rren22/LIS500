@@ -1,11 +1,14 @@
 /*General Styles */
+
 body {
     background: #fdfdfd;
-    margin: 0;
-    padding: 10px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
 }
 
 h1 {
@@ -13,18 +16,18 @@ h1 {
     text-align: center;
     background-color: #222;
     width: 100%;
-    height: 100%;
-    margin: 0%;
+    margin: 0;
     line-height: 2.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 2px solid black;
     color: white;
-    border-radius: 10px;
+
+    
 }
 
 h2 {
     font-size: 250%;
     text-align: center;
+    text-decoration: underline;
 }
 
 h3,
@@ -56,18 +59,19 @@ a {
     justify-content: center;
     list-style: none;
     padding: 10px;
-    background: #222;
-    width: 100%;
-}
-
-.nav-list li {
-    margin: 0 15px;
+    background: #333;
+ min-width: 500px;
+    margin-top: 20px;
+border-radius: 10px;
 }
 
 .nav-list a {
     text-decoration: none;
     color: white;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 .nav-list a:hover {
@@ -91,6 +95,7 @@ table {
     border-radius: 10px;
     overflow: hidden;
     margin: 20px auto;
+    max-width: 1000px;
 }
 
 td {
@@ -103,9 +108,9 @@ td {
     margin: 20px auto;
     padding: 20px;
     border: 2px solid black;
-    background-color: rgb(54, 95, 136);
+    background-color:  #859eb9;
     font-size: 50px;
-    color: rgb(164, 193, 213);
+    color: #222;
 }
 
 /* Buttons within Table */
@@ -116,9 +121,11 @@ td {
     border-radius: 10px;
     color: rgb(54, 95, 136);
     width: 100%;
-    border: 0;
+    border: 2px;
+    border-color:#222;
     padding: 10px;
     cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button:hover {
@@ -127,37 +134,39 @@ button:hover {
 
 /*Welcome Page CSS info*/
 .section {
-    background-color: #E9F2FD;
+    background-color: #859eb9;
     border: 2px solid #333;
-    padding: 20px;
     border-radius: 15px;
-    width: 80%;
+    padding: 30px;
+    min-width: 500px;
+    max-width: 900px;
     margin: 20px auto;
-    color: rgb(62, 178, 247);
+    color: #222;
+
 }
 
 /*About Us CSS info*/
 
 .profile {
-    display: flex;
+   
     align-items: center;
     gap: 15px;
-    background-color: rgb(164, 192, 245);
+    background-color:  #859eb9;
     border: 2px solid #333;
+    border-radius: 15px;
     padding: 10px;
-    width: 50%;
     margin: 20px auto;
-    text-align: left;
+   max-width: 700px;
 
 }
 
 .profile-image {
     /*profile images for about us page*/
-    width: 140px;
-    height: 120px;
+    width: 230px;
+    height: auto;
     border-radius: 10px;
     border: 2px solid #333;
-    margin-right: 10px;
+    margin: 20px;
     float: right;
 }
 
@@ -166,21 +175,25 @@ button:hover {
     font-size: 140%;
     margin: 10px;
     padding: 0 15px;
-    width: 250px;
-    flex-grow: 1;
+    min-width: 500px;
+    max-width: 700px;
+
 }
 
 /* Tech Hero CSS Info */
 .tech-hero {
     /*template for tech hero page*/
     text-align: center;
-    max-width: 700px;
-    margin: 20px auto;
-    padding: 20px;
+    min-width: 500px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(96, 150, 186);
+    background-color:   #859eb9;
     font-size: 25px;
+    color: #222;
 }
 
 .hero-image img {
@@ -188,7 +201,7 @@ button:hover {
     display: block;
     margin: 10px auto;
     border-radius: 10px;
-    max-width: 120%;
+    width: 400px;
     height: auto;
 }
 
@@ -215,35 +228,41 @@ button:hover {
 
 .implicit-bias-description {
     /*design for resource page*/
-    margin: 10px;
     padding: 20px;
-    max-width: 700px;
-    border-radius: 10px;
-    background-color: rgb(96, 150, 186);
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background-color:  #859eb9;
     font-size: 130%;
-    color: rgb(231, 236, 239);
+    color:#222;
 }
 
 .resource-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.resource-links {
-    margin: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgb(96, 150, 186);
-    color: rgb(231, 236, 239);
-    font-size: 20px;
+   
+    padding: 40px;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background-color:  #859eb9;
+    font-size: 130%;
+    color:#222;
 }
 
 .imp-button {
     font-size: 30px;
-    background-color: rgb(231, 236, 239);
+    background-color:#555;
     border-radius: 10px;
-    color: rgb(54, 95, 136);
+    color:#fdfdfd;
+    max-width: 500px;
+}
+.imp-button:hover{
+    background-color: #222;
 }
 
 .linkedin {
@@ -290,33 +309,43 @@ button:hover {
     border-radius: 8px;
 }
 .MLA-But{
-    color: #fdfdfd;
+    color: #ebebeb;
     background-color: #444;
     size: 150%;
- border-style: solid;
+    border-style: solid;
     border-radius: 5px;
     height: 35px;
 }
-/*footer{
-    bottom: 0;
-    width: auto;
-    height: 80px;
-    background-color: #444;
-    margin: 0;
-   padding: 0;
-}
-html{
-    height: 100%;
 
-}*/
+
 
 .ML-Words{
     background-color: #859eb9;
-    border-radius: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
     min-width: 500px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
+    padding: 50px;
     font: 30px;
+}
+nav{
+    justify-content: center;
+}
+footer{
+    bottom: 0;
+    width: auto;
+    height: 80px;
+    background-color: #666;
+    margin: 0;
+   padding: 0;
+   color: #fdfdfd;
+   padding-top: 15px;
+   padding-bottom: 30px;
+   margin-top: 50px;
+}
+iframe{
+    border-radius: 15px;
+    margin: 20px;
 }
