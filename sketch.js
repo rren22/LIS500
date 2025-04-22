@@ -3,7 +3,7 @@ let video;
 let label = "Waiting...";
 let emoji = "📦🔲🦢";
 
-const modelURL = "https://teachablemachine.withgoogle.com/models/-jaEhG5_a/";
+const modelURL = "https://teachablemachine.withgoogle.com/models/aCHsL9fPd/";
 
 function setup() {
   let canvas = createCanvas(640, 520);
